@@ -1,0 +1,49 @@
+{
+  "name": "localdev-mcp",
+  "version": "1.0.0",
+  "description": "Connect ChatGPT Desktop to your self-hosted Windows LocalDev MCP server to discover local developer SDKs, inspect and edit authorized projects, and run approved builds and tests.",
+  "author": {
+    "name": "D0N4C3",
+    "url": "https://github.com/D0N4C3"
+  },
+  "homepage": "https://github.com/D0N4C3/chatgpt_plugins",
+  "repository": "https://github.com/D0N4C3/chatgpt_plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "localdev",
+    "windows",
+    "development",
+    "nodejs",
+    "python",
+    "php",
+    "laravel",
+    "flutter",
+    "android",
+    "godot",
+    "git"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "LocalDev MCP",
+    "shortDescription": "Inspect, edit, build, and test authorized local Windows projects",
+    "longDescription": "LocalDev MCP connects ChatGPT Desktop to your self-hosted Windows LocalDev MCP server (127.0.0.1:8765/mcp) with OAuth 2.1 + PKCE, automatic runtime discovery (Node.js, Python, PHP/Laravel, Flutter/Dart, Android SDK, Godot, Git, Go, GCC), scoped project access, direct file editing/creation, background jobs, and local security approvals.",
+    "developerName": "D0N4C3",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/D0N4C3/chatgpt_plugins",
+    "defaultPrompt": [
+      "List my detected local development environments and registered projects.",
+      "Inspect my registered project and run its test suite."
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

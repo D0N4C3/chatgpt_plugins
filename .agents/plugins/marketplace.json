@@ -1,0 +1,20 @@
+{
+  "name": "d0n4c3-chatgpt-plugins",
+  "interface": {
+    "displayName": "D0N4C3 ChatGPT Plugins"
+  },
+  "plugins": [
+    {
+      "name": "localdev-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/localdev-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
